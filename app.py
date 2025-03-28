@@ -74,7 +74,7 @@ def plot_booths_chart(temp_df,num_cols):
     st.plotly_chart(fig)
 
 
-df = pd.read_excel("D:\SSPR\Garhoundha .xlsx")
+df = pd.read_excel("Garhoundha .xlsx")
 
 st.sidebar.title('Analysis Report')
 option = st.sidebar.selectbox('Please select constituency', ['Please select here', 'Overview', 'Village-wise Analysis',])
